@@ -72,16 +72,6 @@ ul {
 	overflow: hidden;
 	margin: 0 0 0px 0;
 }
-#col1 {
-	width: 50%;
-	float: left;
-	padding: 0;
-}
-#col2 {
-	width: 50%;
-	float: left;
-	padding: 0;
-}
 #content {
 	width: 700px;
 	margin: 0 0 0 0;
@@ -104,7 +94,22 @@ ul {
 #copyright a {
 	color: #819B95;
 }
+.column {
+  float: left;
+}
 
+.left {
+  width: 35%;
+}
+
+.right {
+  width: 65%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 #footer {
 	position: relative;
 	padding: 24px;
