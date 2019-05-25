@@ -214,7 +214,7 @@ ul {
 
 #nav li {
 	margin: 0 1em 0 0;
-	padding: 0 1em 0 1em;
+	padding: 0 1em 0 0.5em;
 }
 
 #nav li.active {
@@ -274,12 +274,21 @@ ul {
   align-items:center;
   flex-direction: row;
 }
+.sponsor{
+  display:flex;
+  align-items:center;
+  flex-direction: row;
+  padding: 10px;
+}
 .desc{
   padding: 10px;
   text-indent: 40px;
 }
 .indent{
   text-indent: 40px;
+}
+.icn{
+  padding: 0 20px 0 20px;
 }
 
 
