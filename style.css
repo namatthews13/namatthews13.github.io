@@ -281,3 +281,36 @@ ul {
 .indent{
   text-indent: 40px;
 }
+
+
+
+
+#content3 {
+	width: 740px;
+	margin: 0 0 0 192px;
+	padding: 0;
+}
+#bx1 {
+	width: 740px;
+	overflow: hidden;
+	margin: 0 0 20px 0;
+}
+#side {
+	width: 172px;
+	float: left;
+	padding: 0;
+}
+#side ul {
+	list-style: none;
+  padding: 0;
+}
+
+#side ul li {
+	padding: 8px 0 8px 0;
+	border-top: dotted 1px #ccc;
+}
+
+#side ul li.first {
+	padding-top: 0;
+	border-top: 0;
+}
