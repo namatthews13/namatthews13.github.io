@@ -13,6 +13,33 @@
 -->
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
         <meta name="keywords" content="" />
         <meta name="description" content="" />
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -68,7 +95,7 @@
 								<a href="https://cesg.tamu.edu/wp-content/uploads/2017/08/Resume.pdf">CV</a>
 							</li>
 							<li>
-								<a href="awards.html">Awards</a>
+								<a href="#awards">Awards</a>
 							</li>
 							<li>
 								<a href="education.html">Education</a>
@@ -113,7 +140,7 @@ Nanoelectronic computing architectures</p>
 <p>Split manufacturing (based on our DAC&#8217;16 paper): <a href="https://github.com/seth-tamu/network_flow_attack">https://github.com/seth-tamu/network_flow_attack</a></p>
 <p>If you are interested in hardware-hacking competitions and/or &#8220;buggy&#8221; System-on-Chip designs, check out Hack@DAC (co-located with DAC): <a href="http://hack-dac18.trust-sysec.com">hack-dac18.trust-sysec.com</a></p>
 <p>We highly appreciate your comments and feedback on our releases. Our students will also answer your questions if you have any.</p>
-            <h3>Awards</h3><ul class="list1">
+            <h3 id="awards">Awards</h3><ul class="list1">
 <li>National Science Foundation CAREER Award, 2017</li>
 <li>ACM SIGDA Outstanding PhD Dissertation Award, 2017</li>
 <li>The Alexander Hessel Award for the Best PhD Dissertation in Electrical Engineering, New York University, May 2016</li>
