@@ -27,7 +27,7 @@ body {
 	font-size: 12pt;
 	line-height: 1.75em;
 	font-family: Georgia, serif;
-	background: #D2E0DD;
+	background: #D3D3D0;
 	color: #382b31;
 }
 
@@ -60,7 +60,7 @@ ul {
 }
 
 #box1 {
-	width: 700px;
+	width: 650px;
 	overflow: hidden;
 	margin: 0 0 20px 0;
   float: left;
@@ -72,7 +72,7 @@ ul {
 	margin: 0 0 0px 0;
 }
 #content {
-	width: 700px;
+	width: 650px;
 	margin: 0 0 0 0;
 	padding: 0;
   float: left;
@@ -154,7 +154,7 @@ ul {
 	padding: 24px;
 	height: 150px;
 	width: 932px;
-	background: #34564f;
+	background: #500000;
 	color: #fff;
 }
 
@@ -204,12 +204,12 @@ ul {
 	padding: 0;
 	width: 980px;
 	margin: 0 0 0 0;
-	background: #117848;
+	background: #E9D09A;
 }
 
 #nav a {
 	text-decoration: none;
-	color: #fff;
+	color: #000000;
 }
 
 #nav li {
@@ -218,11 +218,11 @@ ul {
 }
 
 #nav li.active {
-	background: #fff;
+	background: #000000;
 }
 
 #nav li.active a {
-	color: #34564F;
+	color: #fff;
 }
 
 #nav ul {
@@ -251,8 +251,8 @@ ul {
 #search input.button {
 	margin-left: 1em;
 	border: 0;
-	color: #fff;
-	background: #117848;
+	color: #000000;
+	background: #E9D09A;
 	padding: 4px;
 	text-transform: lowercase;
 	font-family: Bitter, serif;
@@ -264,7 +264,7 @@ ul {
 }
 
 #sidebar {
-	width: 172px;
+	width: 230px;
 	float: right;
 	margin: 0 40px 0 0;
 }
@@ -282,7 +282,6 @@ ul {
 }
 .desc{
   padding: 10px;
-  text-indent: 40px;
   font-size: 12pt;
 }
 .indent{
@@ -295,7 +294,9 @@ ul {
   text-indent: 5px;
 }
 
-
+ol li{
+  padding-left: 10px;
+}
 
 #content3 {
 	width: 740px;

@@ -10,7 +10,7 @@
 
 #NewsArea, #news_window iframe 
 		{
-		height: 400px;
+		height: 300px;
 		width: 100%; /* MAX WIDTH BELOW */
 		}
 
@@ -19,9 +19,9 @@
 #news_window	{
 		width: 100%;
 		max-width: 410px;
-		min-width: 200px;
+		min-width: 295px;
 		margin: 0px auto 0px auto;
-		border: #000000 1px solid;
+		border: #E9D09A 1px solid;
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
@@ -39,10 +39,10 @@
 		{
 		color: #FFFFFF;
 		font: normal 20px "Droid Sans", arial, sans-serif;
-		background-color: #778CA2;
+		background-color: #500000;
 		text-align: left;
 		padding: 5px 5px 5px 5px;
-		border-bottom: #CCCCCC 5px solid;
+		border-bottom: #E9D09A 5px solid;
 		}
 
 
@@ -66,6 +66,7 @@ body.news-page 	{
 		font: normal 12px "Droid Sans", arial, sans-serif;
 		text-align: left;
 		padding: 8px 7px 0px 7px;
+    line-height: 14pt;
 		}
 
 .news-title-if	{
