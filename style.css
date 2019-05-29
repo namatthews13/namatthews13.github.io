@@ -283,11 +283,15 @@ ul {
   padding: 10px;
   font-size: 12pt;
 }
+.des{
+  font-size: 12pt;
+}
 .indent{
   text-indent: 40px;
 }
 .icn{
   padding: 0 20px 0 20px;
+  text-align:center;
 }
 .navfix{
   text-indent: 5px;
@@ -326,3 +330,4 @@ ol li{
 	padding-top: 0;
 	border-top: 0;
 }
+.mapouter{position:relative;text-align:right;height:280px;width:400px;}.gmap_canvas {overflow:hidden;background:none!important;height:280px;width:400px;}
