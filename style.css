@@ -281,7 +281,7 @@ p{
   align-items:center;
   flex-direction: row;
   padding: 10px;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .desc{
   padding: 0 15px 0 0;
@@ -291,8 +291,13 @@ p{
   text-indent: 40px;
 }
 .icn{
-  padding: 0 20px 0 20px;
   text-align:center;
+}
+.ARO{
+  margin: 0 0 0 60px;
+}
+.NSF{
+  margin: 0 0 0 100px;
 }
 .navfix{
   text-indent: 5px;
