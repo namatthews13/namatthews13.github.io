@@ -256,6 +256,9 @@ ul {
 	text-transform: lowercase;
 	font-family: Bitter, serif;
 }
+p{
+  text-align: justify;
+}
 
 #search input.text {
 	border: solid 1px #5d7872;
@@ -280,10 +283,7 @@ ul {
   padding: 10px;
 }
 .desc{
-  padding: 10px;
-  font-size: 12pt;
-}
-.des{
+  padding: 0 15px 0 0;
   font-size: 12pt;
 }
 .indent{
