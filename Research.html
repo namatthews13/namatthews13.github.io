@@ -65,18 +65,39 @@
 							<h2>
 								Current Research Projects
 							</h2><br>
-              <h3>Logic Locking</h3>
-              <div class="teamimage">
-                <p class="desc">
-                    Logic locking is a technique to encrypt the circuit such that the circuit can have
-                its correct function only with the correct key. Under different threat models, various kinds of logic locking techniques were developed. 
-                Additionally, there must be a balance between the security level and overhead. 
-                There are logic locking techniques with different bounds of overhead as required by the industry. 
-                Hence, we are working on developing logic locking techniques that protect the circuit from IP theft with low overhead.
-                  </p>
-                 <a href=""><img src="https://cdn.glitch.com/45f06b2a-6aa0-4daf-8624-150b9d1a1480%2Flogic.png?1559092354660" alt="icon" width="280" height="auto" /></a>                  
-
-              </div>
+              <p>
+                Electronic devices are increasingly used for high-performance applications such as data centers and networking to energy-constrained applications such as medical implants and sensors. Many of these applications require security and privacy of user data and computation, which is usually enforced at software-level. 
+                However, enforcing security and privacy at the hardware level has to gain importance in recent years because of energy efficiency and performance benefits. Furthermore, during the past two decades, there has been a continuous trend away from in-house integrated circuit (IC) design and fabrication towards outsourcing various aspects of design, fabrication, testing, and packaging of ICs. 
+                This globalization of IC design flow has created hitherto unknown security and trust concerns in the ICs, and, thereby, the computing systems (rooted in these ICs) on which modern society relies for mission-critical functionality.
+              </p>
+              <h3>
+                Supply-chain security
+              </h3>
+              <p>
+                An attacker, anywhere in the globalized design flow, can reverse engineer the functionality of an IC and intellectual property (IP), as well as steal and claim ownership of the IP. 
+                An untrusted IC foundry may overbuild ICs and sell the excess parts in the gray market. 
+                Rogue elements in the foundry may insert malicious circuits (hardware Trojans) into the design without the designer’s knowledge.<br>
+                Our research addresses the security problems in IC design by developing novel design automation algorithms and circuit techniques to ensure the trustworthiness of an IC.
+                <br><b>Logic locking</b> protects against reverse engineering, IP piracy, IC overbuilding Trojans by using a “lock and key” mechanism to hide the functionality and the implementation of a design from the untrusted entities in the IC supply chain.<br>
+                <b>Split manufacturing</b> protects against reverse engineering, IP piracy, IC overbuilding, and Trojans by manufacturing the design at two fabrication facilities, thereby preventing one facility knowing the complete design.<br>
+                <b>IC camouflaging</b> protects against reverse engineering and IP piracy by designing layouts whose functionalities are hard to understand.
+              </p>
+              <h3>
+                Security of System-on-Chips
+              </h3>
+              <p>
+                SoC designs are typically implemented at the register-transfer level (RTL) by engineers using hardware description languages (HDLs) such as Verilog and VHDL. 
+                Just like software programmers introduce bugs to the high-level code, hardware engineers may accidentally introduce bugs to the RTL code. While software errors may trigger fallback routines, no such safety net exists for hardware bugs. 
+                Thus, even minor glitches in the implementation of a module within the processor can cause the SoC to break down. Such attacks make the resulting failure modes visible to software adversaries, enabling them to exploit hardware vulnerabilities remotely. 
+                The affected targets range from low-end embedded devices to high-end servers.<br><br>
+                To this end, our research:
+                <ul>
+                <li>analyzes the different types of hardware vulnerabilities commonly found in real-world platforms</li>
+                <li>organizes a security competition, Hack@DAC, along without industry partners</li>
+                <li>identifies the limitations of existing industry-standard tools in detecting these bugs</li>
+                <li>develops new techniques to overcome such limitations</li>
+              </ul>
+              </p>
               <h3>Hack@DAC</h3>
 							<p>
                 To foster a security mindset and to develop the next-generation hardware security engineers, like-minded researchers have created a security competition at the Design Automation Conference (DAC). 
