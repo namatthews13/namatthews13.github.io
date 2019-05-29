@@ -242,7 +242,7 @@ ul {
 #search {
 	position: absolute;
 	top: 0;
-	right: 24px;
+	right: 0;
 	height: 150px;
 	line-height: 150px;
 }
