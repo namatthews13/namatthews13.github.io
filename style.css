@@ -153,21 +153,21 @@ ul {
 	padding: 24px;
 	height: 150px;
 	width: 932px;
-	background: #500000;
+	background: #FFF;
 	color: #fff;
 }
 
 #logo {
 	position: absolute;
 	top: 0;
-	left: 24px;
+	left: 255px;
 	height: 150px;
 	line-height: 150px;
 }
 
 #logo a {
 	text-decoration: none;
-	color: #fff;
+	color: #500000;
 }
 
 #logo h1 {
@@ -179,7 +179,8 @@ ul {
 	position: relative;
 	padding: 24px;
 	width: 932px;
-	color: #5e5e5e;
+	color: #000000;
+  background: #FFF;
 }
 
 #main a {
@@ -203,12 +204,12 @@ ul {
 	padding: 0;
 	width: 980px;
 	margin: 0 0 0 0;
-	background: #E9D09A;
+	background: #500000;
 }
 
 #nav a {
 	text-decoration: none;
-	color: #000000;
+	color: #FFF;
 }
 
 #nav li {
@@ -239,31 +240,25 @@ ul {
 	background: #fff;
 }
 
-#search {
+#cyber {
+	position: absolute;
+	top: -20px;
+	right: 10px;
+	height: 150px;
+	line-height: 150px;
+}
+#tamu {
 	position: absolute;
 	top: 0;
-	right: 0;
+	left: 0;
 	height: 150px;
 	line-height: 150px;
 }
 
-#search input.button {
-	margin-left: 1em;
-	border: 0;
-	color: #000000;
-	background: #E9D09A;
-	padding: 4px;
-	text-transform: lowercase;
-	font-family: Bitter, serif;
-}
 p{
   text-align: justify;
 }
 
-#search input.text {
-	border: solid 1px #5d7872;
-	padding: 4px;
-}
 
 #sidebar {
 	width: 230px;
