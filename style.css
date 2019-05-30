@@ -1,13 +1,10 @@
 /*
-
 	Design by TEMPLATED
 	http://templated.co
 	Released for free under the Creative Commons Attribution License
-
 	Name       : Serious Face
 	Version    : 1.0
 	Released   : 20130222
-
 */
 
 * {
@@ -153,21 +150,21 @@ ul {
 	padding: 24px;
 	height: 150px;
 	width: 932px;
-	background: #FFF;
+	background: #500000;
 	color: #fff;
 }
 
 #logo {
 	position: absolute;
 	top: 0;
-	left: 255px;
+	left: 24px;
 	height: 150px;
 	line-height: 150px;
 }
 
 #logo a {
 	text-decoration: none;
-	color: #500000;
+	color: #fff;
 }
 
 #logo h1 {
@@ -180,7 +177,6 @@ ul {
 	padding: 24px;
 	width: 932px;
 	color: #000000;
-  background: #FFF;
 }
 
 #main a {
@@ -204,12 +200,12 @@ ul {
 	padding: 0;
 	width: 980px;
 	margin: 0 0 0 0;
-	background: #500000;
+	background: #E9D09A;
 }
 
 #nav a {
 	text-decoration: none;
-	color: #FFF;
+	color: #000000;
 }
 
 #nav li {
@@ -240,25 +236,31 @@ ul {
 	background: #fff;
 }
 
-#cyber {
-	position: absolute;
-	top: -20px;
-	right: 10px;
-	height: 150px;
-	line-height: 150px;
-}
-#tamu {
+#search {
 	position: absolute;
 	top: 0;
-	left: 0;
+	right: 0;
 	height: 150px;
 	line-height: 150px;
 }
 
+#search input.button {
+	margin-left: 1em;
+	border: 0;
+	color: #000000;
+	background: #E9D09A;
+	padding: 4px;
+	text-transform: lowercase;
+	font-family: Bitter, serif;
+}
 p{
   text-align: justify;
 }
 
+#search input.text {
+	border: solid 1px #5d7872;
+	padding: 4px;
+}
 
 #sidebar {
 	width: 230px;
